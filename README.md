@@ -1,4 +1,4 @@
-To test/play the game in the terminal, follow these steps:
+To test/play the game in the terminal (Visual Studio Code or similar), follow these steps:
 
 1. Open your terminal/command prompt.
 
