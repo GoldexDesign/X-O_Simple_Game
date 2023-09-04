@@ -1,0 +1,42 @@
+/* Square.css */
+.square {
+  background-color: #fff;
+  border: 2px solid #999; /* Increased border thickness */
+  width: 80px; /* Default width for desktop */
+  height: 80px; /* Default height for desktop */
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Define colors for X and O */
+.square.x {
+  color: blue; /* Color for X */
+}
+
+.square.o {
+  color: green; /* Color for O */
+}
+
+.square:hover {
+  background-color: #ddd;
+}
+
+/* Media queries for tablet and phone */
+@media (max-width: 768px) {
+  .square {
+    width: 90px; /* Adjust width for tablet */
+    height: 90px; /* Adjust height for tablet */
+  }
+}
+
+@media (max-width: 480px) {
+  .square {
+    width: 40px; /* Adjust width for phone */
+    height: 40px; /* Adjust height for phone */
+    font-size: 18px; /* Adjust font size for phone */
+  }
+}

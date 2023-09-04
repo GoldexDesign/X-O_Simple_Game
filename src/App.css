@@ -1,0 +1,32 @@
+/* App.css */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This ensures that the container takes up the full height of the viewport. */
+  margin: 0;
+}
+
+/* Add the game class to the game container */
+.game {
+  text-align: center; /* Center the contents of the game container. */
+
+  display: flex;
+  justify-content: auto; /* Center the game horizontally */
+  align-items: flex-start; /* Align the game info to the top */
+  min-height: 100vh; /* Ensure the game takes up the full height of the viewport */
+}
+
+.game-board {
+  margin-right: 20px; /* Add some margin for spacing */
+}
+
+.game-info {
+  flex-grow: 1; /* Allow game info to grow and take available space */
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
